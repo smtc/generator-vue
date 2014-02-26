@@ -1,24 +1,35 @@
 {
   "name": "generator-vue",
   "version": "0.0.1",
-  "description": "yeoman generator for Vue.js",
-  "main": "app/index.js",
-  "scripts": {
-    "test": "mocha"
+  "description": "A yeoman generator for Vue.js + Component + Gulp boilerplate",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/yyx990803/generator-vue",
+  "bugs": "https://github.com/yyx990803/generator-vue/issues",
+  "author": {
+    "name": "Evan You",
+    "email": "yyx990803@gmail.com",
+    "url": "https://github.com/yyx990803"
   },
+  "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vuejs/generator-vue.git"
+    "url": "git://github.com/yyx990803/generator-vue.git"
   },
-  "keywords": [
-    "vuejs",
-    "yeoman",
-    "generator"
-  ],
-  "author": "Evan You",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vuejs/generator-vue/issues"
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
   },
-  "homepage": "https://github.com/vuejs/generator-vue"
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
 }
