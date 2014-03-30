@@ -1,5 +1,7 @@
 # generator-vue
 
+> **Warning** not finished yet, don't use
+
 A [Yeoman](http://yeoman.io) generator for [Vue.js](http://vuejs.org) with [Component](https://github.com/component/component) and [Gulp](http://gulpjs.com).
 
 ## Install & Usage
